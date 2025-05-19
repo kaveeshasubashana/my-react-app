@@ -16,6 +16,7 @@ function Product(props){
         <h1>{props.title}</h1>
         <p>{props.decs}</p>
         <p>{props.price}</p>
+        <button onClick={()=>{alert("product aded to cart")} }>add to cart</button>
      
         </div>
     );
